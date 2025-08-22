@@ -1,0 +1,11 @@
+name: MCP Servers
+version: 0.0.1
+schema: v1
+mcpServers:
+  - name: Time Services
+    command: uv
+    args:
+      - "--directory"
+      - "c:/projects/mcpTime"
+      - "run"
+      - "mcpTime.py"
